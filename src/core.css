@@ -1,0 +1,13 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper {
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background: #4e348a;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
