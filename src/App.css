@@ -7,3 +7,7 @@ ul , ol { list-style: none;padding: 0px;margin: 0px;}
 .ibl li, .ibl{display: inline-block;}
 .noul{text-decoration: none;}
 .anim{transition: all 0.2s linear 0s;}
+
+.fontn{font-family: 'Open Sans', Arial; font-weight: normal; }
+.fontb{font-family: 'Open Sans', Arial; font-weight: bold;}
+.fontl{font-family: 'Open Sans', Arial; font-weight: lighter;}

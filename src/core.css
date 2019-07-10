@@ -11,3 +11,54 @@ body{
     overflow-x: hidden;
     overflow-y: auto;
 }
+.navigation{
+    top: 50%;
+    left: 25px;
+    transform: translateY(-50%);
+}
+.navigation li{
+margin: 10px 0px;
+}
+.navigation li a{
+    color: #ffffff;
+    font-size: 30px;
+    background: rgba(98, 72, 156, 0);
+    padding: 10px;
+    height: 30px;
+    width: 30px;
+    border-radius: 40px;
+}
+.navigation li a:hover{
+    background: rgba(98, 72, 156, 1);
+}
+.navigation li a .tip {
+    color: black;
+    background: #FFF;
+    font-size: 12px;
+    line-height: 1;
+    padding: 4px 12px;
+    border-radius: 16px;
+    transform: translateY(-120%);
+    left: 60px;
+    pointer-events: none;
+    opacity: 0;
+}
+.navigation li a .tip:before{
+    content: '';
+    width: 0px;
+    height: 0px;
+    border: 4px #fff solid ;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    position: absolute;
+    left: -2px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.navigation li a:hover .tip{
+    opacity: 1;
+    left: 60px;
+}
+.navigation li a.on {
+    background: rgb(121,92 , 185)
+}
