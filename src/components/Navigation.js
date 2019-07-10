@@ -13,9 +13,8 @@ class Navigation extends React.Component {
   switchTab (newTab)   {
     this.setState({ 
       tab : newTab
-      
     })
-    
+    this.props.switchView(newTab);
   }
   render() {
     var self = this;

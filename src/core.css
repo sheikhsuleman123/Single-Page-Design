@@ -15,6 +15,7 @@ body{
     top: 50%;
     left: 25px;
     transform: translateY(-50%);
+    z-index: 9;
 }
 .navigation li{
 margin: 10px 0px;
@@ -61,4 +62,26 @@ margin: 10px 0px;
 }
 .navigation li a.on {
     background: rgb(121,92 , 185)
+}
+
+            /* homeview css */
+.home-view {
+    background: rgb(121,92 , 185)
+}
+.profile-view {
+    background: rgb(92, 185, 134)
+}
+.gallery-view {
+    background: rgb(214, 157, 47)
+}
+.contact-view {
+    background: rgb(105, 105, 105)
+}
+.content{
+    top: 0px;
+    right: 0px;
+    left: 120px;
+    bottom: 0px;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
